@@ -105,40 +105,41 @@ return (
         </div>
       </section>
   {/* Преимущества */}
-  <section id="advantages" className="mt-10">
-    <h1 className="text-3xl text-black font-bold text-center underline">Преимущества:</h1>
-    <div className="flex flex-col items-center gap-6 mt-6 text-center">
-      <div className="flex flex-col items-center max-w-2xl">
-        <img src="highqua.png" alt="Качество" className="mx-auto w-110 h-100" />
-        <h2 className="mt-2 font-bold text-black">Высокое качество</h2>
-        <h4 className="text-black text-2xl">
-          Мы уделяем большое внимание качеству нашего продукта и постоянно работаем над его улучшением. Каждая версия тщательно тестируется нашими специалистами, чтобы гарантировать высокую производительность и надежность. Кроме того, мы обеспечиваем регулярные обновления и улучшения нашего программного обеспечения, чтобы наши клиенты могли использовать самые передовые технологии для управления своими спортивными клубами.
-        </h4>
-      </div>
-      <div className="flex flex-col items-center max-w-2xl">
-        <img src="usability.png" alt="Удобство использования" className="mx-auto w-150 h-100 object-cover" />
-        <h2 className="mt-2 font-bold text-black">Удобство использования</h2>
-        <h4 className="text-black text-2xl">
-          Мы разработали SportCRM с учетом потребностей пользователей и стремимся сделать его максимально удобным и интуитивно понятным. Наше программное обеспечение имеет простой и понятный интерфейс, который позволяет быстро и легко управлять всеми аспектами спортивного клуба.
-        </h4>
-      </div>
-      <div className="flex flex-col items-center max-w-2xl">
-        <img src="safety.jpg" alt="Безопасность" className="mx-auto w-150 h-100 object-cover" />
-        <h3 className="mt-2 font-bold text-black">Безопасность</h3>
-        <h4 className="text-black text-2xl">
-          Мы обеспечиваем высокий уровень безопасности нашего продукта, используя передовые технологии защиты данных, чтобы гарантировать конфиденциальность и безопасность информации наших клиентов. Мы также регулярно проверяем нашу CRM систему на наличие уязвимостей и обновляем ее для защиты от новых угроз.
-        </h4>
-      </div>
-      <div className="flex flex-col items-center max-w-2xl">
-        <img src="qua.png" alt="Клиентоориентированность" className="mx-auto w-150 h-100 object-cover" />
-        <h3 className="mt-2 font-bold text-black">Клиентоориентированность</h3>
-        <h4 className="text-black text-2xl">
-          Наша команда предоставляет профессиональную техническую поддержку нашим клиентам. Мы всегда готовы помочь нашим пользователям решить любые проблемы, связанные с использованием предоставляемого нами программного обеспечения. Также мы предоставляем обучение и консультации по использованию нашего программного обеспечения, чтобы клиенты могли использовать его максимально эффективно.
-        </h4>
-      </div>
+<section id="advantages" className="mt-10 text-center">
+  <h1 className="text-3xl text-black font-bold underline mx-auto w-full md:w-1/2">Преимущества:</h1>
+  
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6 place-items-center">
+    <div className="flex flex-col items-center max-w-2xl">
+      <img src="highqua.png" alt="Качество" className="mx-auto w-110 h-100" />
+      <h2 className="mt-2 font-bold text-black">Высокое качество</h2>
+      <h4 className="text-black text-2xl">
+        Мы уделяем большое внимание качеству нашего продукта и постоянно работаем над его улучшением. Каждая версия тщательно тестируется нашими специалистами, чтобы гарантировать высокую производительность и надежность. Кроме того, мы регулярно обновляем и улучшаем наше программное обеспечение, чтобы наши клиенты могли использовать самые передовые технологии для управления своими спортивными клубами.
+      </h4>
     </div>
-  </section>
-    {/* Блок с отзывами */}
+    <div className="flex flex-col items-center max-w-2xl">
+      <img src="usability.png" alt="Удобство использования" className="mx-auto w-150 h-100 object-cover" />
+      <h2 className="mt-2 font-bold text-black">Удобство использования</h2>
+      <h4 className="text-black text-2xl">
+        Мы разработали SportCRM с учетом потребностей пользователей и стремимся сделать его максимально удобным и интуитивно понятным. Наше программное обеспечение имеет простой и понятный интерфейс, который позволяет быстро и легко управлять всеми аспектами спортивного клуба.
+      </h4>
+    </div>
+    <div className="flex flex-col items-center max-w-2xl">
+      <img src="safety.jpg" alt="Безопасность" className="mx-auto w-150 h-100 object-cover" />
+      <h3 className="mt-2 font-bold text-black">Безопасность</h3>
+      <h4 className="text-black text-2xl">
+        Мы обеспечиваем высокий уровень безопасности нашего продукта, используя передовые технологии защиты данных, чтобы гарантировать конфиденциальность и безопасность информации наших клиентов. Мы также регулярно проверяем нашу CRM-систему на наличие уязвимостей и обновляем ее для защиты от новых угроз.
+      </h4>
+    </div>
+    <div className="flex flex-col items-center max-w-2xl">
+      <img src="qua.png" alt="Клиентоориентированность" className="mx-auto w-150 h-100 object-cover" />
+      <h3 className="mt-2 font-bold text-black">Клиентоориентированность</h3>
+      <h4 className="text-black text-2xl">
+        Наша команда предоставляет профессиональную техническую поддержку нашим клиентам. Мы всегда готовы помочь нашим пользователям решить любые проблемы, связанные с использованием предоставляемого нами программного обеспечения. Мы также предоставляем обучение и консультации по использованию нашего программного обеспечения, чтобы клиенты могли использовать его максимально эффективно.
+      </h4>
+    </div>
+  </div>
+</section>
+  {/* Блок с отзывами */}
     <section id="reviews" className="mt-10 p-6">
         <h2 className="text-2xl text-black font-bold text-center">Отзывы клиентов</h2>
         <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
